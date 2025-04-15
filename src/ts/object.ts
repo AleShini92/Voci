@@ -20,6 +20,14 @@ const programmaVideo = new ProgrammaFormazione('Corso di Videomaking', 'Corso di
 
 // 
 
+// create instances platform
+
+const giornalismo = new Piattaforma('Piattaforma Formazione', 'Online', 'Piattaforma di formazione online', ['Giornalismo', 'Fotografia']);
+const video = new Piattaforma('Piattaforma Video', 'Online', 'Piattaforma di video online', ['Videomaking', 'Editing']);
+// publish content
+
+// add participants to the program
+
 professionistaL.partecipaProgramma(programmaMedia);
 //
 professionistaM.partecipaProgramma(programmaVideo);
