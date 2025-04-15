@@ -6,7 +6,6 @@ logs
 *.css
 package-lock.json
 /dist
-tsconfig.json
 
 .vscode/*
 !.vscode/extensions.json
