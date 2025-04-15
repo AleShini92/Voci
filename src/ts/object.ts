@@ -1,5 +1,5 @@
 // import classes
-import { ProfessionistaMedia, ProgrammaFormazione, Piattaforma } from "./classes";
+import { ProfessionistaMedia, ProgrammaFormazione, Piattaforma } from "./classes.js";
 
 
 // create instances of classes
@@ -29,5 +29,8 @@ const video = new Piattaforma('Piattaforma Video', 'Online', 'Piattaforma di vid
 // add participants to the program
 
 professionistaL.partecipaProgramma(programmaMedia);
+giornalismo.pubblicaContenuto(professionistaL, 'Corso di Giornalismo', programmaMedia);
 //
 professionistaM.partecipaProgramma(programmaVideo);
+
+// add programs to the platform

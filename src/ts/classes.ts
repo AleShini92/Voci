@@ -1,6 +1,6 @@
 // import interfaces
 
-import { IProfessionistaMedia, IProgrammaFormazione, IPiattaforma } from "./interfaces";
+import { IProfessionistaMedia, IProgrammaFormazione, IPiattaforma } from "./interfaces.js";
 
 // create classes
 
@@ -26,6 +26,10 @@ class ProgrammaFormazione implements IProgrammaFormazione {
     ) {}
     aggiungiPartecipante(professionista: IProfessionistaMedia): void {
         this.elencoPartecipanti.push(professionista);
+        console.log(`
+            Partecipante:
+            ${professionista.nome} ${professionista.cognome}`
+        )
     }
 }
 
