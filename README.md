@@ -21,7 +21,7 @@
          <a href="#getting-started">Get Started</a>
       </li>
       <li>
-         <a href="#link-online-in-description">Link Online</a>
+         <a href="#link-Online-in-description">Link Online</a>
       </li>
    </ol>
 </details>
@@ -55,14 +55,7 @@ The founders of Voci decided to fill this gap, creating a space that would give 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LINK IN DESCRIPTION -->
-
-### **Link Online in description** 👇
+#### **Link Online in description** 👇
 
 `</>` [Link CodePen](https://codepen.io/AleShini92/pen/emmYxeZ) <--- Click Here to visit the page online.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-> [!NOTE]
-> Deploy project on<br>
-
-[netlify]()
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
