@@ -55,7 +55,7 @@ The founders of Voci decided to fill this gap, creating a space that would give 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LINK IN DESCRIPTION -->
-#### **Link Online in description** 👇
+> #### **Link Online in description** 👇
 
 `</>` [Link CodePen](https://codepen.io/AleShini92/pen/emmYxeZ) <--- Click Here to visit the page online.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
