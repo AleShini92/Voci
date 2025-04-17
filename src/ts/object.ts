@@ -22,15 +22,13 @@ const programmaVideo = new ProgrammaFormazione('Corso di Videomaking', 'Corso di
 
 // create instances platform
 
-const giornalismo = new Piattaforma('Piattaforma Formazione', 'Online', 'Piattaforma di formazione online', ['Giornalismo', 'Fotografia']);
-const video = new Piattaforma('Piattaforma Video', 'Online', 'Piattaforma di video online', ['Videomaking', 'Editing']);
-// publish content
+const giornalismo = new Piattaforma('Piattaforma Formazione', 'Rivista Online', 'Piattaforma di formazione online', ['Giornalismo', 'Fotografia']);
+const video = new Piattaforma('Piattaforma Video', 'YouTube', 'Piattaforma di video online', ['Videomaking', 'Editing']);
 
 // add participants to the program
 
 professionistaL.partecipaProgramma(programmaMedia);
-giornalismo.pubblicaContenuto(professionistaL, 'Corso di Giornalismo', programmaMedia);
+giornalismo.pubblicaContenuto(professionistaG, 'Corso di Giornalismo', programmaMedia);
 //
-professionistaM.partecipaProgramma(programmaVideo);
-
-// add programs to the platform
+professionistaS.partecipaProgramma(programmaVideo);
+video.pubblicaContenuto(professionistaF, 'Videomaking', programmaVideo);

@@ -27,7 +27,7 @@ class ProgrammaFormazione implements IProgrammaFormazione {
     aggiungiPartecipante(professionista: IProfessionistaMedia): void {
         this.elencoPartecipanti.push(professionista);
         console.log(`
-            Partecipante:
+            Partecipante al programma "${this.nome}":
             ${professionista.nome} ${professionista.cognome}`
         )
     }
@@ -49,7 +49,8 @@ class Piattaforma implements IPiattaforma {
             per il programma "${titoloFormazione.nome}"
             della durata di ${titoloFormazione.durata}.
             Descrizione: ${titoloFormazione.descrizione}
-            Ambito di specializzazione: ${titoloFormazione.ambitoSpecializzazione}
+            Ambito di specializzazione: ${titoloFormazione.ambitoSpecializzazione}.
+            Piattaforma: ${this.tipo}.
             `)}
 }
 

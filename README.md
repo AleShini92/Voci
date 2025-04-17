@@ -10,7 +10,7 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary top="10px">Table of Contents</summary>
-  <ol>
+   <ol>
       <li>
          <a href="#description">Description</a>
       </li>
@@ -23,7 +23,7 @@
       <li>
          <a href="#link-online-in-description">Link Online</a>
       </li>
-  </ol>
+   </ol>
 </details>
 
 > ## **Description**
@@ -58,11 +58,5 @@ The founders of Voci decided to fill this gap, creating a space that would give 
 
 #### **Link Online in description** 👇
 
-`</>` [Link Online]() <--- Click Here to visit the page online.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-> [!NOTE]
-> Deploy project on<br>
-
-[netlify]()
+`</>` [Link CodePen](https://codepen.io/AleShini92/pen/emmYxeZ) <--- Click Here to visit the page online.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
