@@ -33,6 +33,12 @@ The founders of Voci decided to fill this gap, creating a space that would give 
 
 ...Contribute to the achievement of gender equality, promoting a more equitable and inclusive narrative.
 
+
+> [!important]
+> **Usage**
+
+• This project involves developing a system in TypeScript that models the operational structure of a gender-equal online media outlet, centering interactions between female media professionals, training programs, and publishing platforms.
+
 > ## **Project**
 
 > [!NOTE]
